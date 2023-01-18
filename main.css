@@ -67,6 +67,62 @@ footer a:hover {
     color: #ccc;
 }
 
+/* media max-width: 3440px and min-width 1414px */
+@media screen and (max-width: 3440px) and (min-width: 1414px) {
+    header {
+        font-size: 50px;
+        font-weight: normal;
+        margin: 0;
+        padding: 1%;
+        text-transform: uppercase;
+        letter-spacing: 40px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    header h1 {
+        font-size: 70px;
+    }
+
+    footer {
+        position: fixed;
+        padding: 1%;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Orbitron', sans-serif;
+        margin: 15rem;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+    header {
+        margin: 0;
+        padding: 0.5%;
+        text-transform: uppercase;
+        letter-spacing: 40px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    footer {
+        position: fixed;
+        padding: 1%;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Orbitron', sans-serif;
+        margin: 6rem;
+        font-size: 20px;
+    }
+}
 
 
 /*# sourceMappingURL=main.css.map*/
